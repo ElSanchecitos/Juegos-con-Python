@@ -1,0 +1,15 @@
+{
+    "docwriter.style": "Auto-detect",
+    "python.testing.pytestArgs": [
+        "mayor_menor"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./ejercicios_while",
+        "-p",
+        "*test.py"
+    ]
+}
