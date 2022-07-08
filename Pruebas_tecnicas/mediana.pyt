@@ -16,6 +16,11 @@ def mediana(lista1, lista2):
             mediana = (lista3[mitad] + lista3[mitad+1]) / 2
         return mediana
 
+lis1 = [1,6,4]
+lis2 = [7,9,11]
+
+print(mediana(lis1, lis2))
+
 """
 for e in lista3:
     indices = lista3.index(e)
@@ -61,7 +66,7 @@ for e in new_list3:
     indices = new_list3.index(e)
     mitad = int(indices / 2)
     mediana = new_list3[mitad]
-print(mediana)
+#print(mediana)
 
 #par
 new_list = [5,7,8,10,9,11,12,6,15,17,21,43]
@@ -111,5 +116,5 @@ def mediana(lista1, lista2):
 new_list1 = [5,7,8,10,9,11,12,35]
 new_list2 = [6,15,17,21,43,91]
 new_list3 = new_list1 + new_list2
-print(sorted(new_list3))
+#print(sorted(new_list3))
 #print(mediana(new_list1,new_list2))
