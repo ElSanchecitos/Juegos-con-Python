@@ -26,7 +26,7 @@ def mayor(lista):
 #print(mayor(numeros))
 print("Lista original:", numeros)
 
-def ordernar_lista(reversa=False, lista=None):
+def ordernar_lista(lista, reversa=False):
     if reversa is False:
         for recorrido in range(1,len(lista)):
             for posicion in range(len(lista) - recorrido):
